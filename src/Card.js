@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Card = ({card}) => {
+const Card = ({name, image}) => {
   // console.log(card)
   return (
-    <div>
-      Card 1 {card}
-    </div>
+    <img
+       alt={name}
+       src={image}
+    />
   )
 }
 export default Card;
